@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.home.HomeFragment">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <ImageView
+            android:layout_width="411dp"
+            android:layout_height="225dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/bg_home"
+            android:scaleType="centerCrop"
+            />
+
+        <TextView
+            android:id="@+id/topik1"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/form_text"
+            android:drawableLeft="@drawable/baseline_book_24"
+            android:drawablePadding="8dp"
+            android:padding="13dp"
+            android:text="Topik 1.Ruang Lingkup Audit TI/SI"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/topik2"
+            android:background="@drawable/form_text"
+            android:layout_marginTop="1dp"
+            android:padding="13dp"
+            android:text="Topik 2. Kerangka Kerja Audit Sistem Informasi"
+            android:drawableLeft="@drawable/baseline_book_24"
+            android:textColor="@color/black"
+            android:drawablePadding="8dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/topik3"
+            android:background="@drawable/form_text"
+            android:layout_marginTop="1dp"
+            android:padding="13dp"
+            android:text="Topik 3.Proses Audit Si dan TI"
+            android:drawableLeft="@drawable/baseline_book_24"
+            android:textColor="@color/black"
+            android:drawablePadding="8dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/topik4"
+            android:background="@drawable/form_text"
+            android:layout_marginTop="1dp"
+            android:padding="13dp"
+            android:text="Topik 4.Tools and Techniques Used in Auditing IT"
+            android:drawableLeft="@drawable/baseline_book_24"
+            android:textColor="@color/black"
+            android:drawablePadding="8dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/topik5"
+            android:background="@drawable/form_text"
+            android:layout_marginTop="1dp"
+            android:padding="13dp"
+            android:text="Topik 5.Governance dan Strategi"
+            android:drawableLeft="@drawable/baseline_book_24"
+            android:textColor="@color/black"
+            android:drawablePadding="8dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/topik6"
+            android:background="@drawable/form_text"
+            android:layout_marginTop="1dp"
+            android:padding="13dp"
+            android:text="Topik 6.Risk Management"
+            android:drawableLeft="@drawable/baseline_book_24"
+            android:textColor="@color/black"
+            android:drawablePadding="8dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/topik7"
+            android:background="@drawable/form_text"
+            android:layout_marginTop="1dp"
+            android:padding="13dp"
+            android:text="Topik 7. Project Management"
+            android:drawableLeft="@drawable/baseline_book_24"
+            android:textColor="@color/black"
+            android:drawablePadding="8dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/topik8"
+            android:background="@drawable/form_text"
+            android:layout_marginTop="1dp"
+            android:padding="13dp"
+            android:text="Topik 8.Siste Development and Life Cycle "
+            android:drawableLeft="@drawable/baseline_book_24"
+            android:textColor="@color/black"
+            android:drawablePadding="8dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/topik9"
+            android:background="@drawable/form_text"
+            android:layout_marginTop="1dp"
+            android:padding="13dp"
+            android:text="Topik 9.Aplications System-Risk and controll"
+            android:drawableLeft="@drawable/baseline_book_24"
+            android:textColor="@color/black"
+            android:drawablePadding="8dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/topik10"
+            android:background="@drawable/form_text"
+            android:layout_marginTop="1dp"
+            android:padding="13dp"
+            android:text="Topik 10.Change Control Management"
+            android:drawableLeft="@drawable/baseline_book_24"
+            android:textColor="@color/black"
+            android:drawablePadding="8dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/topik11"
+            android:background="@drawable/form_text"
+            android:layout_marginTop="1dp"
+            android:padding="13dp"
+            android:text="Topik 11.Information systems Operation"
+            android:drawableLeft="@drawable/baseline_book_24"
+            android:textColor="@color/black"
+            android:drawablePadding="8dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/topik12"
+            android:background="@drawable/form_text"
+            android:layout_marginTop="1dp"
+            android:padding="13dp"
+            android:text="Topik 12.Software Acquisition"
+            android:drawableLeft="@drawable/baseline_book_24"
+            android:textColor="@color/black"
+            android:drawablePadding="8dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/topik13"
+            android:background="@drawable/form_text"
+            android:layout_marginTop="1dp"
+            android:padding="13dp"
+            android:text="Topik 13.Ruang Lingkup Audit TI/SI"
+            android:drawableLeft="@drawable/baseline_book_24"
+            android:textColor="@color/black"
+            android:drawablePadding="8dp"/>
+
+
+
+
+    </LinearLayout>
+
+</ScrollView>
+

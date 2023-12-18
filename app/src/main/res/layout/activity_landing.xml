@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".LandingActivity">
+
+    <ImageView
+        android:layout_width="500dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@drawable/landing_atas"
+        />
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="125dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/logo_audit_ti"
+        android:layout_marginTop="55dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Teknologi Informasi dan Sistem Informasi"
+        android:textColor="@color/blue_01"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:id="@+id/text1"
+        />
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:text="Login"
+        android:id="@+id/login_botton"
+        android:textSize="18sp"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center_horizontal"
+        android:backgroundTint="@color/blue_01"
+        app:cornerRadius = "20dp"/>
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="60dp"
+        android:text="Register"
+        android:id="@+id/register_botton"
+        android:textSize="18sp"
+        android:backgroundTint="@color/blue_01"
+        app:cornerRadius = "20dp"/>
+
+</LinearLayout>
